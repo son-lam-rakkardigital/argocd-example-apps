@@ -8,7 +8,10 @@ config:
 
 applications:
   - name: guestbook
+    namespace: 'default'
+
   - name: helm-guestbook
+    namespace: 'default'
     tool:
       helm:
         releaseName: helm-guestbook
