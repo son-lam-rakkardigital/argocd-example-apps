@@ -11,10 +11,10 @@ applications:
     namespace: 'default'
     project: 'demo'
 
-  # - name: helm-guestbook
-  #   namespace: 'default'
-  #   project: 'demo'
-  #   tool:
-  #     helm:
-  #       releaseName: helm-guestbook
+  - name: helm-guestbook
+    namespace: 'default'
+    project: 'demo'
+    tool:
+      helm:
+        releaseName: helm-guestbook
 
